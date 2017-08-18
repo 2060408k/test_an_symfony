@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cad6dbcf-a9b3-40af-b51d-43551c114266" name="Default" comment="" />
+    <list default="true" id="cad6dbcf-a9b3-40af-b51d-43551c114266" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/.gitkeep" afterPath="$PROJECT_DIR$/var/cache/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/.gitkeep" afterPath="$PROJECT_DIR$/var/logs/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/sessions/.gitkeep" afterPath="$PROJECT_DIR$/var/sessions/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/apple-touch-icon.png" afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/favicon.ico" afterPath="$PROJECT_DIR$/web/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Controller/ApplicationController.php" afterPath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Controller/ApplicationController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Entity/IUK/Competition.php" afterPath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Entity/IUK/Competition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Entity/IUK/LocalEnterprisePartnership.php" afterPath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Entity/IUK/LocalEnterprisePartnership.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Entity/IUK/Programme.php" afterPath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Entity/IUK/Programme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Entity/IUK/Repository/ProjectCompanyRepository.php" afterPath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Entity/IUK/Repository/ProjectCompanyRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Event/MapFilterEvent.php" afterPath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Event/MapFilterEvent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Event/Subscriber/ProjectCompanySubscriber.php" afterPath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Event/Subscriber/ProjectCompanySubscriber.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Resources/public/css/pane.css" afterPath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Resources/public/css/pane.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Resources/public/js/app.js" afterPath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Resources/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Resources/views/Application/companyPreview.html.twig" afterPath="$PROJECT_DIR$/../../IUK/visualisation-tool/src/AppBundle/Resources/views/Application/companyPreview.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/symfony2.xml" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test_project.iml" afterPath="$PROJECT_DIR$/.idea/test_project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.htaccess" afterPath="$PROJECT_DIR$/app/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppCache.php" afterPath="$PROJECT_DIR$/app/AppCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_test.yml" afterPath="$PROJECT_DIR$/app/config/config_test.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/console" afterPath="$PROJECT_DIR$/bin/console" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml.dist" afterPath="$PROJECT_DIR$/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.htaccess" afterPath="$PROJECT_DIR$/src/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" afterPath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/ChapterFixtures.php" afterPath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/ChapterFixtures.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/CharacterFixtures.php" afterPath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/CharacterFixtures.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/EventFixtures.php" afterPath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/EventFixtures.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Chapter.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Chapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Character.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Character.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Event.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Repository/ChapterRepository.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Repository/ChapterRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Repository/CharacterRepository.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Repository/CharacterRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Repository/EventRepository.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Repository/EventRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Service/JsonFormatter.php" afterPath="$PROJECT_DIR$/src/AppBundle/Service/JsonFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/.htaccess" afterPath="$PROJECT_DIR$/web/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app.php" afterPath="$PROJECT_DIR$/web/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/robots.txt" afterPath="$PROJECT_DIR$/web/robots.txt" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -324,12 +388,12 @@
       <option name="presentableId" value="Default" />
       <updated>1502893143904</updated>
       <workItem from="1502893145169" duration="5854000" />
-      <workItem from="1502954963984" duration="14041000" />
+      <workItem from="1502954963984" duration="14250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19895000" />
+    <option name="totallyTimeSpent" value="20104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

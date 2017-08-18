@@ -203,8 +203,6 @@ class Character
 		$this->events = $events;
 	}
 
-
-
 	public function expose() {
 		return get_object_vars($this);
 	}

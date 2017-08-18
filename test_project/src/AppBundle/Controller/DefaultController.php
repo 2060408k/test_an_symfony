@@ -32,7 +32,7 @@ class DefaultController extends Controller
 		$allChapters = $entityManager->getRepository('AppBundle:Chapter')->findAll() ;
 		$jsonFormatter = $this->get('json_formatter');
 		$response = new JsonResponse($jsonFormatter->toJson($allChapters));
-
+        $response->headers->set('Access-Control-Allow-Origin', 'http://localhost:4200/');
 		return $response;
 	}
 
@@ -46,7 +46,23 @@ class DefaultController extends Controller
 		/** @var Chapter[] $allChapters */
 		$allCharacters = $entityManager->getRepository('AppBundle:Character')->findAll() ;
 		$response = new JsonResponse($jsonFormatter->toJson($allCharacters));
+		$response->headers->set('Access-Control-Allow-Origin', 'http://localhost:4200/');
 
 		return $response;
 	}
+
+    /**
+     * @Route("/events", name="events")
+     */
+    public function getEventsAction(Request $request)
+    {
+        $entityManager = $this->getDoctrine()->getManager();
+        $jsonFormatter = $this->get('json_formatter');
+        /** @var Chapter[] $allChapters */
+        $allEvents = $entityManager->getRepository('AppBundle:Event')->findAll() ;
+        $response = new JsonResponse($jsonFormatter->toJson($allEvents));
+        $response->headers->set('Access-Control-Allow-Origin', 'http://localhost:4200/');
+
+        return $response;
+    }
 }

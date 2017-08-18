@@ -130,4 +130,8 @@ class Event
 	public function setChapters( $chapters ) {
 		$this->chapters = $chapters;
 	}
+
+    public function expose() {
+        return get_object_vars($this);
+    }
 }
