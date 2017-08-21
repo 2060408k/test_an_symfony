@@ -8,8 +8,11 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use FOS\RestBundle\Controller\Annotations as Rest;
+use FOS\RestBundle\Controller\FOSRestController;
+use FOS\RestBundle\View\View;
 
-class DefaultController extends Controller
+class DefaultController extends FOSRestController
 {
     /**
      * @Route("/", name="homepage")
@@ -23,7 +26,7 @@ class DefaultController extends Controller
     }
 
 	/**
-	 * @Route("/chapters", name="chapters")
+	 *  @Rest\Get("/chapters")
 	 */
 	public function getChaptersAction(Request $request)
 	{
@@ -37,7 +40,7 @@ class DefaultController extends Controller
 	}
 
 	/**
-	 * @Route("/characters", name="characters")
+	 *  @Rest\Get("/characters")
 	 */
 	public function getCharactersAction(Request $request)
 	{
@@ -52,7 +55,7 @@ class DefaultController extends Controller
 	}
 
     /**
-     * @Route("/events", name="events")
+     *  @Rest\Get("/events")
      */
     public function getEventsAction(Request $request)
     {
