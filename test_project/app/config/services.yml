@@ -5,6 +5,10 @@ parameters:
 
 services:
     #My services
+    api_key_user_provider:
+        class: AppBundle\Security\ApiKeyUserProvider
+    api_key_user_authenticator:
+        class: AppBundle\Security\ApiKeyAuthenticator
     json_formatter:
         class: AppBundle\Service\JsonFormatter
         public: true

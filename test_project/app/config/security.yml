@@ -4,6 +4,8 @@ security:
 
     # https://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
     providers:
+        api_key_user_provider:
+            id: AppBundle\Security\ApiKeyUserProvider
         our_db_provider:
             entity:
                 class: AppBundle:User
@@ -18,9 +20,12 @@ security:
             security: false
 
         main:
-            pattern: ^/
+            pattern: ^/api
+            stateless: false
+            simple_preauth:
+                authenticator: AppBundle\Security\ApiKeyAuthenticator
             anonymous: ~
-            provider: our_db_provider
+            provider: api_key_user_provider
             # activate different ways to authenticate
 
             # https://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate
@@ -35,6 +40,7 @@ security:
     access_control:
         # require ROLE_ADMIN for /admin*
         - { path: ^/admin, roles: ROLE_ADMIN }
+        - { path: ^/api, roles: ROLE_API }
 
     encoders:
         AppBundle\Entity\User:

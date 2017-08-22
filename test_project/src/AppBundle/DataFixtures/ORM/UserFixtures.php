@@ -45,6 +45,7 @@ class UserFixtures extends AbstractFixture implements OrderedFixtureInterface,Co
         $password = 'test1234';
         $encoded = $encoder->encodePassword($user1->getPassword(), $password);
 
+        $user1->setApiIdent($user1->generateAPIToken());
         $user1->setPassword($encoded);
         $user1->setUsername('admin');
 

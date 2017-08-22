@@ -8,6 +8,7 @@
 
 namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Security\Core\User\EquatableInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
 
 /**
@@ -16,7 +17,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
  * @ORM\Entity
  * @ORM\Table(name="user")
  */
-class User implements UserInterface, \Serializable
+class User implements UserInterface, \Serializable, EquatableInterface
 {
     /**
      * @ORM\Column(type="integer")
@@ -44,6 +45,12 @@ class User implements UserInterface, \Serializable
      * @ORM\Column(name="is_active", type="boolean")
      */
     private $isActive;
+
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=128, nullable=false)
+     */
+    protected $apiIdent;
 
     public function __construct()
     {
@@ -170,6 +177,59 @@ class User implements UserInterface, \Serializable
     public function setIsActive($isActive)
     {
         $this->isActive = $isActive;
+    }
+
+    /**
+     * @return string
+     */
+    public function getApiIdent()
+    {
+        return $this->apiIdent;
+    }
+
+    /**
+     * @param string $apiIdent
+     */
+    public function setApiIdent($apiIdent)
+    {
+        $this->apiIdent = $apiIdent;
+    }
+
+    /**
+     * Generates a unique sha512 hash that will be used to identify API interactions.
+     *
+     * @ORM\PrePersist
+     */
+    public function generateAPIToken()
+    {
+        $this->apiIdent = hash('sha512', 'PREACHER'.$this->getUsername());
+    }
+
+    /**
+     * The equality comparison should neither be done by referential equality
+     * nor by comparing identities (i.e. getId() === getId()).
+     *
+     * However, you do not need to compare every attribute, but only those that
+     * are relevant for assessing whether re-authentication is required.
+     *
+     * Also implementation should consider that $user instance may implement
+     * the extended user interface `AdvancedUserInterface`.
+     *
+     * @param UserInterface $user
+     *
+     * @return bool
+     */
+    public function isEqualTo(UserInterface $user)
+    {
+        if (!$user instanceof User) {
+            return false;
+        }
+
+        if ($this->username !== $user->getUsername()) {
+            return false;
+        }
+
+        return true;
     }
 
 }
