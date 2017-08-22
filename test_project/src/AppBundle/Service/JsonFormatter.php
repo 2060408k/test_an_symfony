@@ -14,7 +14,7 @@ use AppBundle\Entity\Character;
 class JsonFormatter {
 
 	/**
-	 * @param Character[]|Chapter[] $input
+	 * @param array $input
 	 *
 	 * @return string
 	 */

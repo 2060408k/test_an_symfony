@@ -4,16 +4,23 @@ namespace AppBundle\Controller;
 
 use AppBundle\Entity\Chapter;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
 use FOS\RestBundle\Controller\Annotations as Rest;
 use FOS\RestBundle\Controller\FOSRestController;
-use FOS\RestBundle\View\View;
+use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends FOSRestController
 {
+
+    /**
+     * @Route("/admin")
+     */
+    public function adminAction()
+    {
+        return new Response('<html><body>Admin page!</body></html>');
+    }
+
     /**
      * @Route("/", name="homepage")
      */
